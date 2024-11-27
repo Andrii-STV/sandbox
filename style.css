@@ -1,0 +1,32 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #EEF5FF;
+    
+}
+
+h1 {
+    color: #013647;
+}
+
+p {
+    color: #1b1f20;
+}
+
+p[draggable] {
+    color: red;
+    font-weight: 600;
+}
+
+.arrow-container {
+    display: flex;
+    gap: 8px;
+
+}
+
+svg {
+    width: 16px;
+    fill: #1b1f20;
+}
